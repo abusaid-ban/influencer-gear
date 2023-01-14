@@ -82,9 +82,8 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 15px;
-
-    margin-top: 15px;
+    column-gap: 40px;
+ margin-top: 15px;
 }
 
 /* products collection design */
@@ -226,4 +225,23 @@ span {
     display: flex;
     justify-content: center;
     column-gap: 10px;
+}
+@media only screen and (max-width:688px){
+    .header,.logos-container,.footer-container{
+        display: none;
+    }
+    .products{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .product img {
+       width: 100%;
+    
+    }
+    .feature-product{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    
 }
