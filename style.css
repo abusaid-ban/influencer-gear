@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.header {
+    margin-bottom: 30px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -61,10 +65,87 @@ nav li a {
     color: #FFFFFF;
     font-size: 16px;
 }
+.banner img{
+    background-image: url('images/Circle\ design.svg');
+    
+}
+
 /* logos style */
-.logos{
+.logos-container {
+    padding: 0 100px;
+}
+
+.logos {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:40px;
+    column-gap: 60px;
+
+    margin-top: 20px;
+}
+
+/* products collection design */
+.collection {
+    padding: 0 100px;
+    margin-top: 90px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 30px;
+
+}
+
+.collection-title {
+    color: #3A3A3A;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.product img {
+    height: 256px;
+    width: 300px;
+
+}
+
+.product .product-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product .product-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.fa-star {
+    width: 11.07px;
+    height: 10.32px;
+}
+
+.fa-star.filled {
+    color: #FB8200;
+}
+
+.fa-star.empty {}
+
+span {
+    padding-left: 10px;
+}
+
+.info-description {
+    color: #787885;
+    font-size: 14px;
+    margin: 0;
 }
