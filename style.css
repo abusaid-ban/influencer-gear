@@ -82,7 +82,7 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 60px;
+    column-gap: 15px;
 
     margin-top: 15px;
 }
